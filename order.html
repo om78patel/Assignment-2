@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/pizza.jpg);background-size: cover;">
+    <header id="header">
+        <img src="images/logo.png" alt="logo image">
+        <h1>Octant pizza</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Orders</a>
+        </nav>
+    </header>
+    <!-- section which contains the main image and the text -->
+    <div class="form">
+        <form action="">
+            <h2>Make Your Pizza</h2>
+            <fieldset>
+                <legend>Choose Your Pizza Size:</legend>
+                <label>
+                  <input type="radio" name="size" value="small" required>
+                  Small (8-inch)
+                </label>
+                <label>
+                  <input type="radio" name="size" value="medium">
+                  Medium (12-inch)
+                </label>
+                <label>
+                  <input type="radio" name="size" value="large">
+                  Large (16-inch)
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Choose Toppings:</legend>
+                <label>
+                  <input type="checkbox" name="topping" value="pepperoni">
+                  Pepperoni
+                </label>
+                <label>
+                  <input type="checkbox" name="topping" value="mushrooms">
+                  Mushrooms
+                </label>
+                <label>
+                  <input type="checkbox" name="topping" value="olives">
+                  Olives
+                </label>
+                <!-- Add more toppings as needed -->
+              </fieldset>
+              <fieldset>
+                <legend>Choose Crust Type:</legend>
+                <label>
+                  <input type="radio" name="crust" value="thin" required>
+                  Thin Crust
+                </label>
+                <label>
+                  <input type="radio" name="crust" value="pan">
+                  Pan Crust
+                </label>
+                <label>
+                  <input type="radio" name="crust" value="stuffed">
+                  Stuffed Crust
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Choose Delivery Method:</legend>
+                <select name="delivery" required>
+                  <option value="">--Select Delivery Method--</option>
+                  <option value="pickup">Pickup</option>
+                  <option value="delivery">Delivery</option>
+                </select>
+              </fieldset>
+              <input  id="button" type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+</html>

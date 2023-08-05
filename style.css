@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#header img
+{
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+#header
+{
+    background-color: orange;
+    display: flex;
+    padding: 10px;
+}
+#header h1
+{
+    color: white;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+#header nav
+{
+    display: flex;
+    margin-left: 60%;
+    margin-top: 35px;
+    gap: 30%;
+}
+#header nav > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#header nav > a:hover
+{
+    transition: 0.5s;
+   color: black;
+}
+section > h1
+{
+    color: white;
+    margin-top: 20%;
+    margin-left: 14%;
+    font-size: 50px;
+}
+.form
+{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    width: 50%;
+    margin-left: 310px;
+    margin-top: 15%;
+}
+.form h2
+{
+    font-size: 40px;
+}
+.form input
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#button
+{
+    background-color: orange;
+    color: white;
+    padding: 7px;
+    border-radius: 100px;
+}
+@media screen and (max-width: 600px) {
+    #header {
+      display: block;
+    }
+  
+    #header img {
+      margin-left: 140px;
+    }
+  
+    #header h1 {
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+  
+    #header nav {
+      display: block;
+      margin: 20px 130px;
+    }
+  
+    .form {
+      width: 90%;
+      margin: 10% auto;
+    }
+  
+    .form h2 {
+      font-size: 30px;
+    }
+  }
